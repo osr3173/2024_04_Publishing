@@ -1,0 +1,26 @@
+.button_layout {
+  padding-top: 5px;
+}
+
+.naver {
+  background-color: greenyellow;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.mail {
+  background-color: skyblue;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.apple {
+  background-color: black;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+i {
+  color: white;
+  font-size: 20px;
+}

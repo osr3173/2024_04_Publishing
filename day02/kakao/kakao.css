@@ -1,0 +1,62 @@
+.normal {
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.kakao {
+  font-size: 30px;
+  color: black;
+  background-color: #f7e111;
+  text-align: center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.apple {
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* 두께 스타일 색깔 */
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.coupon {
+  font-size: 20px;
+  color: #0078ff;
+  background-color: white;
+  text-align: center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+.button {
+  font-size: 18px;
+  background-color: white;
+  text-align: center;
+  width: 400px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 800;
+  border: 1px solid #0078ff;
+  border-radius: 3px;
+}
