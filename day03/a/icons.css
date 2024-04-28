@@ -1,0 +1,83 @@
+.find_layout {
+  background-color: #4a76ba;
+  display: flex;
+  gap: 2px;
+  width: fit-content;
+  padding: 30px;
+}
+
+.find_button {
+  border: 1px solid #dbdbdb;
+  border-radius: 14px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 700;
+}
+
+.red {
+  color: #fe696a;
+}
+
+.blue {
+  color: #4476fe;
+}
+
+
+
+.lay2 {
+  display: flex;
+  gap: 5px;
+  padding: 30px;
+}
+
+
+
+.car { 
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.oil { 
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.shop { 
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.com { 
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+
+.text1 {
+
+}
+
+.text2 {
+
+}
+
+.text3 {
+
+}
+
+.text4 {
+
+}
