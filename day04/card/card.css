@@ -1,0 +1,38 @@
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 280;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url("i1.jpg");
+  background-size: cover;
+  filter: brightness(1.08);
+  padding: 10px 15px 10px 15px;
+}
+
+.category > span {
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title > span {
+  font-family: "JalnanGothic";
+  color: white;
+  font-size: 28px;
+}
+
+.script > span {
+  color: white;
+  font-size: 16px;
+}
