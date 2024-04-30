@@ -1,0 +1,85 @@
+.card {
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.imageBox {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 90% center;
+}
+.imageBox > img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  font-weight: 1000;
+  font-size: 15px;
+}
+
+.sns_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-weight: 1000;
+}
+
+.button {
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.sns_Box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo_Box > i {
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.logo_Box > i:hover {
+  color: pink;
+  font-size: 25px;
+}
+
+.card:hover {
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+.button:hover {
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 0.5s;
+}
