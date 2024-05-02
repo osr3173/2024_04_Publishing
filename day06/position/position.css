@@ -1,0 +1,41 @@
+.body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  font-size: 40px;
+  position: relative;
+}
+
+.light_green {
+  background-color: lightgreen;
+}
+
+.green {
+  background-color: green;
+  z-index: 2;
+}
+
+.red {
+  position: fixed;
+  top: 0px;
+  background-color: red;
+}
+
+.title {
+  /* relative: 자기 부모 기준 움직임 */
+  /* top:0, left:0, bottom:0, right:0 */
+
+  /* absolute: 단 모든 부모가 static(기본값)이면 웹 브라우저 기준 */
+  /* absolute: 단 모든 부모가 static(기본값)이 아니면 자기 부모 기준 */
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
