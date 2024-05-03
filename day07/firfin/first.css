@@ -1,0 +1,81 @@
+main {
+  background-color: var(--primary-purple-200);
+}
+
+.first {
+  max-width: 1200px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+.contents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.text2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+
+  text-align: center;
+  padding-top: 30px;
+}
+.apple {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.google {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.imageBox {
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+.img1 > img {
+  width: 300px;
+  height: 300px;
+}
+
+.img2 > img {
+  width: 300px;
+  height: 300px;
+}
