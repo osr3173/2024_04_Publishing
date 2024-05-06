@@ -1,0 +1,30 @@
+.body {
+    height: 300vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    top: 0px;
+   
+}
+
+.red {
+    background-color: red;
+    position: fixed;
+    top: 0px;
+}
+
+.light_green {
+    background-color: lightgreen;
+}
+
+.green {
+    background-color: green;
+}
+
