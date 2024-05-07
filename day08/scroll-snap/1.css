@@ -1,0 +1,7 @@
+.menu {
+}
+.menu__item {
+}
+.menu__item--active {
+  font-weight: bold;
+}
