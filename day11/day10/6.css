@@ -1,0 +1,49 @@
+.six {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sixth_contents {
+  margin: 0 auto;
+}
+
+.six_top {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  gap: 30px;
+}
+
+.six_top {
+  margin-bottom: 20px;
+}
+
+.six_top > h1 {
+  font-size: 30px;
+}
+
+.six_wrap {
+  align-items: center;
+}
+.img_container {
+  width: 100%;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(6, 2fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+.button {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(2, 53, 134);
+  color: white;
+}

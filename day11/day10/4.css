@@ -1,0 +1,37 @@
+.fourth {
+  width: 100vw;
+  height: 100vh;
+}
+
+.fourth_contents {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.info {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.ca {
+  display: flex;
+  gap: 10px;
+}
+
+.ca > .imgBox {
+  width: 300px;
+  height: 300px;
+}
+
+.ca > .imgBox > img {
+  width: 100%;
+}
+
+.ca > .text {
+  gap: 10px;
+}
+
+.ad_butt {
+  padding-bottom: 20px;
+}
