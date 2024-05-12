@@ -1,0 +1,26 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+}
+
+.first_section_contents > .imageBox {
+  padding-top: 60px;
+  width: 33.3vw;
+  height: 100%;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.first_section_contents > .imageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.first_section_contents > .imageBox > img:hover {
+  filter: brightness(1);
+}
+
+
+

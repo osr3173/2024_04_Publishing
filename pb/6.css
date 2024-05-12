@@ -1,0 +1,68 @@
+.six {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sixth_contents {
+  margin: 0 auto;
+}
+
+.six_top {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  gap: 30px;
+}
+
+.six_top {
+  margin-bottom: 20px;
+}
+
+.six_top > h1 {
+  font-size: 30px;
+}
+
+
+
+.six_wrap {
+  width: 100%;
+  display: flex;
+ 
+  
+}
+.six_container {
+  width: 100%;
+  display:grid;
+ 
+  grid-template-columns: repeat(6,auto);
+ 
+  gap: 10px;
+  margin-left: 30px;
+  
+}
+
+.six_container >.six_imgBox > img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.six_container > img:hover {
+  filter: brightness(0.8);
+}
+
+
+
+.button {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(2, 53, 134);
+  color: white;
+}
